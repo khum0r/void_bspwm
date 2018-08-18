@@ -6,6 +6,8 @@ LIST_OF_APPS="xorg-minimal xorg-fonts xf86-video-intel xf86-input-synaptics xset
 sudo xbps-install -S
 sudo xbps-install -Sy $LIST_OF_APPS
 
+sudo ln -s /etc/sv/gpm /var/service/
+
 echo "################################################################"
 echo "#########   Installed xorg-minimal [Intel]      ################"
 echo "################################################################"
