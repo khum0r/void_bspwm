@@ -1,0 +1,84 @@
+#define one0 #282C34
+!##1D1F21
+!##282C34
+#define one1 #CC626A
+#define one2 #98C379
+#define one3 #d19a66
+#define one4 #61aeee
+#define one5 #c678dd
+#define one6 #56b6c2
+#define one7 #ABB2BF
+#define one8 #5C6370
+#define one9 #E06C75
+#define one10 #98c379
+#define one11 #d19a66
+#define one12 #51afef
+#define one13 #C678DD
+#define one14 #56B6C2
+#define one15 #FFFFFF
+
+!##1E2127
+!#define one1 #CC626A
+!#define one2 #98C379
+!#define one3 #da8548
+!#define one4 #3E86B8
+!#define one5 #a9a1e1
+!#define one6 #4db5bd
+!#define one7 #ABB2BF
+!#define one8 #5C6370
+!#define one9 #E06C75
+!#define one10 #A7D685
+!#define one11 #ECBE7B
+!#define one12 #51afef
+!#define one13 #C678DD
+!#define one14 #56B6C2
+!#define one15 #FFFFFF
+
+!urxvt color scheme:
+
+URxvt*background: one0
+!#282c34
+URxvt*foreground: one7
+URxvt*colorUL: #86a2b0
+
+! black
+URxvt*color0  : one0
+! #282c34
+URxvt*color8  : one8
+! #5c6370
+! red
+URxvt*color1  : one1
+! #e06c75
+URxvt*color9  : one9
+! #be5046
+! green
+URxvt*color2  : one2
+! #98c379
+URxvt*color10 : one10
+! #7a9f60
+! yellow
+URxvt*color3  : one3
+! #e5c07b
+URxvt*color11 : one11
+!#d19a66
+! blue
+URxvt*color4  : one4
+!#61afef
+URxvt*color12 : one12
+!#61afef
+! magenta
+URxvt*color5  : one5
+!#c678dd
+URxvt*color13 : one13
+!#9a52af
+! cyan
+URxvt*color6  : one6
+!#56b6c2
+URxvt*color14 : one14
+!#3c909b
+! white
+URxvt*color7  : one7
+!#abb2bf
+URxvt*color15 : one15
+!#828997
+
