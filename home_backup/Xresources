@@ -1,0 +1,113 @@
+! URXVT CONFIGURATION !
+
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintslight
+Xft.hinting: true
+Xft.antialias: true
+Xft.dpi: 96
+Xft.rgba: rgb
+
+! Disable unicode pasting mode that I dont understand
+URxvt.iso14755_52: false
+
+!URxvt.depth: 32
+!URxvt.letterSpace: -1
+
+!-*- Perl extensions -*-
+
+!URxvt.perl-ext-common: default,clipboard,matcher
+!URxvt.url-launcher: /usr/bin/xdg-open
+!URxvt.matcher.button: 1
+!URxvt.matcher.rend.0: Uline Bold
+
+! Comment this if you dont want copy when text is selected
+URxvt.keysym.C-C: perl:clipboard:copy
+URxvt.keysym.C-V: perl:clipboard:paste
+URxvt.clipboard.autocopy: true
+
+!urxvt color scheme:
+
+! #include "/home/khum0r/.config/colors/nord"
+#include "/home/khum0r/.config/colors/urxvt/one_dark"
+
+!URxvt*background: nord0
+!#282c34
+!URxvt*foreground: nord4
+
+!URxvt*colorUL: #86a2b0
+
+
+! black
+!URxvt*color0  : nord1
+! #282c34
+!URxvt*color8  : nord3
+! #5c6370
+! red
+!URxvt*color1  : nord11
+! #e06c75
+!URxvt*color9  : nord11
+! #be5046
+! green
+!URxvt*color2  : nord14
+! #98c379
+!URxvt*color10 : nord14
+! #7a9f60
+! yellow
+!URxvt*color3  : nord13
+! #e5c07b
+!URxvt*color11 : nord13
+!#d19a66
+! blue
+!URxvt*color4  : nord9
+!#61afef
+!URxvt*color12 : nord9
+!#61afef
+! magenta
+!URxvt*color5  : nord15
+!#c678dd
+!URxvt*color13 : nord15
+!#9a52af
+! cyan
+!URxvt*color6  : nord8
+!#56b6c2
+!URxvt*color14 : nord7
+!#3c909b
+! white
+!URxvt*color7  : nord5
+!#abb2bf
+!URxvt*color15 : nord6
+!#828997
+
+!urxvt fonts: 
+
+URxvt*font: xft:IosevkaCC:style=medium:size=12
+URxvt*boldFont: xft:IosevkaCC:style=semibold:size=12
+
+
+!urxvt extensions:
+
+URxvt.perl-ext-common:  default,matcher
+
+!enabling clickable links:
+
+URxvt.urlLauncher:      /usr/bin/firefox
+URxvt.matcher.button:   1 
+
+!urxvt scrolling options and cursor style:
+
+URxvt*saveLines: 12000
+URxvt*scrollstyle:plain
+URxvt*scrollBar: false
+URxvt*cursorBlink: true
+URxvt*cursorUnderline: true
+
+! urxvt tabs settings:
+
+URxvt.tabbed.tabbar-fg: 2
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 2
+URxvt.tabbed.tab-bg: 8
+URxvt.tabbed.autohide:  yes
+URxvt.tabbed.new-button:  no
+URxvt.tabbed.title: no
