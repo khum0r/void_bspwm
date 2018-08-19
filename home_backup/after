@@ -1,0 +1,13 @@
+Synaptics
+
+cp /usr/share/X11/xorg.conf.d/70-synaptics.conf /etc/X11/xorg.conf.d
+
+synclient -L - list capabilities
+synclient TapButton=1 - enable capabilities
+
+edit /etc/X11/xorg.conf.d/70-synaptics.conf for capabilities
+Add after MatchIsTouchpad "on": 
+Option "TapButton1" "1"
+
+
+
