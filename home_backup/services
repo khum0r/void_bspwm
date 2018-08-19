@@ -1,0 +1,15 @@
+total 0
+lrwxrwxrwx 1 root root 22 Aug 14 14:22 NetworkManager -> /etc/sv/NetworkManager
+lrwxrwxrwx 1 root root 13 Aug 14 02:29 acpid -> /etc/sv/acpid
+lrwxrwxrwx 1 root root 19 Aug 13 04:48 agetty-tty1 -> /etc/sv/agetty-tty1
+lrwxrwxrwx 1 root root 19 Aug 13 04:48 agetty-tty2 -> /etc/sv/agetty-tty2
+lrwxrwxrwx 1 root root 19 Aug 13 04:48 agetty-tty3 -> /etc/sv/agetty-tty3
+lrwxrwxrwx 1 root root 19 Aug 13 04:48 agetty-tty4 -> /etc/sv/agetty-tty4
+lrwxrwxrwx 1 root root 19 Aug 13 04:48 agetty-tty5 -> /etc/sv/agetty-tty5
+lrwxrwxrwx 1 root root 19 Aug 13 04:48 agetty-tty6 -> /etc/sv/agetty-tty6
+lrwxrwxrwx 1 root root 12 Aug 14 02:35 alsa -> /etc/sv/alsa
+lrwxrwxrwx 1 root root 17 Aug 14 02:50 cgmanager -> /etc/sv/cgmanager
+lrwxrwxrwx 1 root root 18 Aug 14 02:51 consolekit -> /etc/sv/consolekit
+lrwxrwxrwx 1 root root 12 Aug 14 02:38 dbus -> /etc/sv/dbus
+lrwxrwxrwx 1 root root 11 Aug 18 13:37 gpm -> /etc/sv/gpm
+lrwxrwxrwx 1 root root 13 Aug 13 04:48 udevd -> /etc/sv/udevd
